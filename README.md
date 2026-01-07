@@ -52,7 +52,7 @@ Diferente de formulários comuns, este não redireciona o usuário para outra p�
 
 1. Faça o download ou clone este repositório.
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
-3. Ou acesse através do link: **[LINK DO SEU PORTFOLIO AQUI]**
+3. Ou acesse através do link: **(https://carrara23.github.io/Portfolio/)**
 
 ---
 
@@ -65,4 +65,5 @@ Conecte-se comigo para conversarmos sobre projetos e tecnologia:
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/leoo.carrara.23)
 
 ---
+
 <p align="center">Desenvolvido por Leonardo Carrara</p>
