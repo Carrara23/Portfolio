@@ -533,20 +533,22 @@ span {
 }
 
 .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
-    padding: 0 9%;
+    display: flex;         /* Mudamos de Grid para Flex */
+    flex-wrap: wrap;       /* Se tiver mais de um, ele pula linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;   /* Centraliza verticalmente */
+    gap: 2.5rem;           /* Espaço entre os cards */
+    width: 100%;           /* Garante que o container use a tela toda */
 }
 
 .portfolio-box {
+    flex: 1 1 300px;       /* O card pode crescer, mas tenta ter 300px */
+    max-width: 450px;      /* IMPRESCINDÍVEL: Impede o card de esticar na tela toda */
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem white;
     overflow: hidden;
     display: flex;
-    height: 250px; /* Altura fixa para manter o grid alinhado */
+    box-shadow: 0 0 1rem var(--bg-color);
 }
 
 .portfolio-box img {
@@ -942,4 +944,5 @@ textarea:-webkit-autofill:focus {
     -webkit-text-fill-color: #fff;
     -webkit-box-shadow: 0 0 0px 1000px var(--bg-color) inset;
     transition: background-color 5000s ease-in-out 0s;
+
 }
